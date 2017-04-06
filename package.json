@@ -14,8 +14,8 @@
     "mocha": "*"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "zip": "zip -r ../myNewApi.zip"
+    "test": "./node_modules/.bin/mocha",
+    "zip": "zip -r ../myNewApi.zip *"
   },
   "author": "JS Mike",
   "license": "ISC"
